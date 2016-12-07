@@ -1,0 +1,23 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.adb.secure=0
+ro.secure=0
+security.perf_harden=1
+ro.allow.mock.location=0
+ro.debuggable=1
+ro.zygote=zygote32
+dalvik.vm.image-dex2oat-Xms=64m
+dalvik.vm.image-dex2oat-Xmx=64m
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.dex2oat-Xmx=512m
+ro.dalvik.vm.native.bridge=0
+debug.atrace.tags.enableflags=0
+camera2.portability.force_api=1
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=mer 23 nov 2016, 00.01.26, CET
+ro.bootimage.build.date.utc=1479855686
+ro.bootimage.build.fingerprint=Ascend/cm_y550/y550:6.0.1/MOB31K/fa473fa7a8:userdebug/
+persist.sys.usb.config=none
